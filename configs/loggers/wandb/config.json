@@ -1,0 +1,10 @@
+{
+  "logger_type": "wandb",
+  "enable": true,
+  "user": "pankhilgawade2001",
+  "project":"hyformer-AMPApex",
+  "resume": "allow",
+  "display_name": null,
+  "watch": true,
+  "watch_freq": 2500
+}

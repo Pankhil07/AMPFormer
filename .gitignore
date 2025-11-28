@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs / SLURM outputs
+*.log
+*.out
+*.err
+
+# Optional: uncomment if you have local-only stuff
+# data/
+# checkpoints/
+# wandb/

@@ -1,0 +1,4 @@
+{
+    "tokenizer_type": "AATokenizer",
+    "vocabulary_path": "data/vocabulary/aa.txt"
+} 

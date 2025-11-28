@@ -1,0 +1,20 @@
+{
+  "dataset_type": "sequence",
+  "train_data_path": "guacamol/train.npz",
+  "val_data_path": "guacamol/val.npz",  
+  "test_data_path": "guacamol/test.npz",
+  "data_key": "smiles",
+  "target_key": "target",
+  "prediction_task_type": "regression",
+  "test_metric": null,
+  "num_prediction_tasks": 200,
+  "data_transform": [
+    {
+      "name": "smiles_enumerator",
+      "params": {
+        "enumeration_probability": 0.0
+      }
+    }
+  ],
+  "target_transform": null
+}
